@@ -17,7 +17,7 @@ def long_planeteer_calls(calls_long)
   end 
 end
 
-def find_the_cheese(type)
+def find_the_cheese(cheese_types)
   cheese_types.find do |x|
     x === type 
   end 
