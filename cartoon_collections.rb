@@ -19,6 +19,6 @@ end
 
 def find_the_cheese(cheese_types)
   cheese_types.find do |x|
-    x === type 
+    x === type
   end 
 end
